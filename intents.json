@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello", "Hi,Good to see you", "Hi there, how can I help?", "Hello there,how are you today?"],
+         "responses": ["Hello", "Hi,Good to see you", "Hi there, how can I help?", "Hello there,how are you today?" , "Hi there,how can i help you today?"],
          "context": [""]
 		 },
         {"tag": "Salutions",
@@ -11,7 +11,7 @@
 		 },
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon." , "Bye Bye"],
          "context": [""]
         },
         {"tag": "thanks",
