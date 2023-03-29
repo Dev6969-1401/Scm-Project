@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello", "Hi,Good to see you", "Hi there, how can I help?", "Hello there,how are you today?" , "Hi there,how can i help you today?"],
+         "responses": ["Hello", "Hi,Good to see you", "Hi there, how can I help?", "Hello there,how are you today?", "Hi there,how can i help you today?"],
          "context": [""]
 		 },
         {"tag": "Salutions",
@@ -51,7 +51,7 @@
         },
         {"tag": "search_blood_pressure_by_patient_id",
          "patterns": [],
-         "responses": ["Loading Blood pressure result for Patient"],
+         "responses": ["Loading Blood pressure result for Patient. couldn't find any info!!!"],
          "context": [""]
         },
         {"tag": "pharmacy_search",
