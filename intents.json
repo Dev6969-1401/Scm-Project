@@ -1,11 +1,11 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello", "Hi,Good to see you", "Hi there, how can I help?"],
+         "responses": ["Hello", "Hi,Good to see you", "Hi there, how can I help?", "Hello there,how are you today?"],
          "context": [""]
 		 },
         {"tag": "Salutions",
-         "patterns": ["How Are you" ],
+         "patterns": ["How Are you","Good,How about you?" ],
          "responses": ["I am fine thank you very much! so what I do for u?"],
          "context": [""]
 		 },
